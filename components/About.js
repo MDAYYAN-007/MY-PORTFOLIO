@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='text-lg'>
       <p>
-            I'm a dedicated Web Developer from Bangalore, currently pursuing a degree in Engineering with a specialization in AI and ML. With a passion for creating interactive and engaging websites, I transform ideas into digital experiences that captivate and delight users.
+            I&apos;m a dedicated Web Developer from Bangalore, currently pursuing a degree in Engineering with a specialization in AI and ML. With a passion for creating interactive and engaging websites, I transform ideas into digital experiences that captivate and delight users.
           </p>
           <br />
           <p>
