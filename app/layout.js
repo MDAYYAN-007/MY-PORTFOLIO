@@ -1,7 +1,12 @@
 import { Inter } from "next/font/google";
+import { Varela_Round } from "next/font/google";
 import "./globals.css";
+import Sidebar from "@/components/Sidebar";
 
-const inter = Inter({ subsets: ["latin"] });
+const varela = Varela_Round({ 
+  subsets: ["latin"],
+  weight: ["400"],
+ });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +16,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${varela.className} flex gap-8 my-20 mx-10`}>
+        <div className="scroll-smooth"><Sidebar /></div>
+        <div className="">{children}</div>
+      </body>
     </html>
   );
 }
