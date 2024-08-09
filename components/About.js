@@ -8,7 +8,7 @@ const About = () => {
           </p>
           <br />
           <p>
-            I build websites that are not only visually stunning but also highly functional and user-friendly.  I believe in clean, intuitive design paired with strong functionality for an experience that will stick in the user's mind. Whether it's a neat-looking portfolio, a cool online store, or an informative blog, I keep quality consistent to your brand and captivating to your audience.
+            I build websites that are not only visually stunning but also highly functional and user-friendly.  I believe in clean, intuitive design paired with strong functionality for an experience that will stick in the user&apos;s mind. Whether it&apos;s a neat-looking portfolio, a cool online store, or an informative blog, I keep quality consistent to your brand and captivating to your audience.
           </p>
           <br />
           <p>
